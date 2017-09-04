@@ -1,4 +1,4 @@
-# terraform-aws-cli [![Build Status](https://travis-ci.org/z-george-ma/docker-node-build-tools.svg?branch=master)](https://travis-ci.org/z-george-ma/docker-node-build-tools)
+# Node build tools [![Build Status](https://travis-ci.org/z-george-ma/docker-node-build-tools.svg?branch=master)](https://travis-ci.org/z-george-ma/docker-node-build-tools)
 Docker image for NodeJS build tools with yarn and typescript
 
 ## Usage
