@@ -9,4 +9,4 @@ You can use this image with the following:
 `docker run --rm -it georgema/node-build-tools <command>`
 
 Example:
-`docker run --rm -it georgema/node-build-tools yarn build`
+`docker run --rm -it georgema/node-build-tools 'yarn build'`
