@@ -6,8 +6,8 @@ services:
 env:
   global:
   - COMMIT=${TRAVIS_COMMIT::8}
-  - REPO=georgema/terraform-aws-cli
+  - REPO=georgema/node-tsc-serverless
 
 script:
 - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
-- docker build -t terraform-aws-cli -t $REPO:$TAG -f Dockerfile .
+- docker build -t node-tsc-serverless -t $REPO:$TAG -f Dockerfile .
