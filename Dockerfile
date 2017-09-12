@@ -1,7 +1,7 @@
 FROM mhart/alpine-node
 
 RUN yarn global add typescript serverless && \
-    apk add --update gettext libintl
+    apk add --update gettext libintl && \
 ################
 # To set up timezone, uncomment the following lines
 #
