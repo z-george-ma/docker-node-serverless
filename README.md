@@ -1,4 +1,4 @@
-# Node build tools [![Build Status](https://travis-ci.org/z-george-ma/docker-node-build-tools.svg?branch=master)](https://travis-ci.org/z-george-ma/docker-node-build-tools)
+# Node build tools [![Build Status](https://travis-ci.org/z-george-ma/docker-node-serverless.svg?branch=master)](https://travis-ci.org/z-george-ma/docker-node-serverless)
 Docker image for NodeJS build tools with yarn, serverless and typescript
 
 ## Usage
